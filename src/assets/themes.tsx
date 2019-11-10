@@ -4,14 +4,6 @@ import { withStyles, makeStyles } from '@material-ui/core/styles';
 
 
 export const darkTheme = createMuiTheme({
-    overrides: {
-        MuiButton: {
-            text: {
-                paddingLeft: "20px",
-                paddingRight: "20px"
-            }
-        }
-    },
     palette: {
         primary: {
             main: '#24292e'
@@ -20,10 +12,8 @@ export const darkTheme = createMuiTheme({
     },
     typography: {
         button: {
-            textTransform: 'capitalize',
-            fontSize: 16
+            textTransform: 'capitalize'
         }
     },
     direction: 'rtl',
-    spacing: 8
 })
