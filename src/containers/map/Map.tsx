@@ -19,7 +19,7 @@ L.Icon.Default.mergeOptions({
 interface Props {
     newsFlashesMarkers: any[];
     leafletRef: React.Ref<any>;
-}
+} 
 
 const TempAnywayMap = (props: Props) => {
     const position = [32.0461, 34.8516] as [number, number];
