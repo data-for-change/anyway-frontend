@@ -24,7 +24,7 @@ const TempAnywayMap = (props: Props) => {
   return (
     <div className={styles.mapContainer}>
       <Map
-        style={{ height: "100vh" }}
+        style={{ height: "calc(100vh - 48px)" }}
         center={position}
         zoom={12}
         maxZoom={30}
