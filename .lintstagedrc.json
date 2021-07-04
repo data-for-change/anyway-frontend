@@ -1,0 +1,3 @@
+{
+    "**/*.tsx": ["prettier --write", "tslint", "prettier --write", "git add"]
+}
